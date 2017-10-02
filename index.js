@@ -21,7 +21,7 @@ function appendKitten(name){
   return moreKittens;
 }
 
-prependKitten(name){
-  const evenMoreKittens = [name, ...kittens];
-  return evenMoreKittens;
+function prependKitten(name){
+  const moreKittens = [name, ...kittens];
+  return moreKittens;
 }
